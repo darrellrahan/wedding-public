@@ -3,7 +3,11 @@
 import React from "react";
 import { RxEnvelopeOpen } from "react-icons/rx";
 
-function Hero() {
+function Hero({
+  setCurrentOverflow,
+}: {
+  setCurrentOverflow: React.Dispatch<React.SetStateAction<string>>;
+}) {
   return (
     <section id="hero">
       <div className="min-h-screen bg-[url('/images/hero/bg.jpg')] bg-cover bg-center text-white relative">
@@ -25,7 +29,7 @@ function Hero() {
             <a
               href="#after-hero"
               onClick={() => {
-                document.body.style.overflow = "auto";
+                setCurrentOverflow("auto");
               }}
               className="font-bold text-sm bg-[#ffffff36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
             >
