@@ -2,25 +2,8 @@ import React from "react";
 import Countdown from "react-countdown";
 
 function AfterHero() {
-  function renderer({
-    days,
-    hours,
-    minutes,
-    completed,
-  }: {
-    days: any;
-    hours: any;
-    minutes: any;
-    seconds: any;
-    completed: any;
-  }) {
-    return completed ? (
-      <span>Udeh nikah</span>
-    ) : (
-      <span>
-        {days} hari {hours} jam {minutes} menit
-      </span>
-    );
+  function renderer({ days, completed }: { days: any; completed: any }) {
+    return completed ? <span>Udeh nikah</span> : <span>{days} hari lagi</span>;
   }
 
   return (
