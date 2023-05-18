@@ -2,7 +2,7 @@ import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { HiArrowLongRight } from "react-icons/hi2";
 
-function People() {
+function Profile() {
   return (
     <section id="people">
       <div className="bg-[url('/images/people/bg.jpg')] bg-center bg-no-repeat bg-cover px-12 py-16">
@@ -14,7 +14,7 @@ function People() {
           pada acara Resepsi Pernikahan putra-putri kami
         </p>
         <div className="grid grid-cols-2 mt-20">
-          <div className="-rotate-90 flex flex-col justify-end mr-24">
+          <div className="-rotate-90 flex flex-col justify-end mr-16 lg:mr-24 translate-y-4 lg:translate-y-0">
             <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
               <span>THE</span>
               <span>BRIDE</span>
@@ -23,7 +23,7 @@ function People() {
           <img
             src="/images/people/women.jpg"
             alt="Retha"
-            className="translate-x-[1.625rem] scale-125"
+            className="translate-x-[1.9rem] lg:translate-x-[1.625rem] scale-125"
           />
         </div>
         <div className="flex flex-col items-end text-right gap-6 mt-12">
@@ -46,9 +46,9 @@ function People() {
           <img
             src="/images/people/man.jpg"
             alt="Akbar"
-            className="-translate-x-[1.625rem] scale-125"
+            className="-translate-x-[1.9rem] lg:-translate-x-[1.625rem] scale-125"
           />
-          <div className="rotate-90 flex flex-col justify-end ml-24">
+          <div className="rotate-90 flex flex-col justify-end ml-16 lg:ml-24 -translate-y-4 lg:translate-y-0">
             <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
               <span>THE</span>
               <span>GROOM</span>
@@ -76,4 +76,4 @@ function People() {
   );
 }
 
-export default People;
+export default Profile;

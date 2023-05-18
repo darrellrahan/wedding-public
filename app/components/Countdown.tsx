@@ -1,13 +1,13 @@
 import React from "react";
 import Countdown from "react-countdown";
 
-function AfterHero() {
+function CountdownComp() {
   function renderer({ days, completed }: { days: any; completed: any }) {
     return completed ? <span>Udeh nikah</span> : <span>{days} hari lagi</span>;
   }
 
   return (
-    <section id="after-hero">
+    <section id="countdown">
       <div className="min-h-screen bg-[url('/images/afterHero/bg.jpg')] bg-cover bg-center text-white relative py-28 flex items-end">
         <div className="relative py-8 px-10 w-full">
           <div
@@ -36,4 +36,4 @@ function AfterHero() {
   );
 }
 
-export default AfterHero;
+export default CountdownComp;

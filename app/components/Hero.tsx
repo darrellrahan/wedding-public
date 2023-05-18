@@ -21,13 +21,12 @@ function Hero({
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <p className="text-[0.8rem]">Mercure Hotel Bandung City Centre</p>
+            <p className="text-[0.8rem]">Mercure Hotel Bandung</p>
             <p className="text-[0.8rem]">
-              Jl. Lengkong Besar No.8, Cikawao, Kec. Lengkong, Kota Bandung,
-              Jawa Barat
+              Jl. Lengkong Besar No.8, Cikawao, Kec. Lengkong, Kota Bandung
             </p>
             <a
-              href="#after-hero"
+              href="#countdown"
               onClick={() => {
                 setCurrentOverflow("auto");
               }}

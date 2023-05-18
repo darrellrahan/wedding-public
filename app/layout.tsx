@@ -19,7 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${merriweather.className} bg-black`}>{children}</body>
+      <body className={`${merriweather.className} bg-black overflow-x-hidden`}>
+        {children}
+      </body>
     </html>
   );
 }
