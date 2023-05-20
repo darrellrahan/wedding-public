@@ -21,7 +21,7 @@ function CountdownComp() {
               <p className="leading-[1.85] py-2 px-2 border-r border-r-white">
                 SAVE THE DATE
                 <br />
-                Sabtu, 3 Mei 2023
+                Sabtu, 3 Juni 2023
               </p>
               <p className="py-2 px-2 leading-[1.85]">
                 COUNTDOWN

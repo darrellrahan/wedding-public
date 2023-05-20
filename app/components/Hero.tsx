@@ -17,11 +17,11 @@ function Hero({
             <p className="font-extralight text-[0.75rem]">The Wedding of</p>
             <h1 className="text-4xl font-light mt-2">Akbar & Retha</h1>
             <p className="font-extralight text-[0.8rem] mt-4">
-              Sabtu, 3 Mei 2023
+              Sabtu, 3 Juni 2023
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">
-            <p className="text-[0.8rem]">Mercure Hotel Bandung</p>
+            <p className="text-[0.8rem]">Mercure Bandung City Center</p>
             <p className="text-[0.8rem]">
               Jl. Lengkong Besar No.8, Cikawao, Kec. Lengkong, Kota Bandung
             </p>
