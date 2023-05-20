@@ -118,8 +118,7 @@ function Reservation() {
           )}
           <button
             onClick={() => {
-              if (inputValue.name === "")
-                alert("Anda belum memasukkan nama anda.");
+              if (inputValue.name === "") alert("Mohon masukkan nama anda.");
               else {
                 sendReservation(
                   inputValue.name,

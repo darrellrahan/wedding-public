@@ -2,8 +2,28 @@ import React from "react";
 import Countdown from "react-countdown";
 
 function CountdownComp() {
-  function renderer({ days, completed }: { days: any; completed: any }) {
-    return completed ? <span>Udeh nikah</span> : <span>{days} hari lagi</span>;
+  function renderer({
+    days,
+    hours,
+    minutes,
+    seconds,
+    completed,
+  }: {
+    days: any;
+    hours: any;
+    minutes: any;
+    seconds: any;
+    completed: any;
+  }) {
+    return completed ? (
+      <span>Acara sudah berlalu.</span>
+    ) : (
+      <span>
+        {days} hari {hours} jam
+        <br />
+        {minutes} menit {seconds} detik
+      </span>
+    );
   }
 
   return (
@@ -18,10 +38,9 @@ function CountdownComp() {
             <p className="text-sm font-light">WEDDING INVITATION</p>
             <h1 className="text-3xl font-light mt-2 mb-4">Akbar & Retha</h1>
             <div className="grid grid-cols-2 border-y border-y-white text-center text-sm font-light">
-              <p className="leading-[1.85] py-2 px-2 border-r border-r-white">
-                SAVE THE DATE
-                <br />
-                Sabtu, 3 Juni 2023
+              <p className="leading-[1.85] py-2 px-2 border-r border-r-white flex flex-col gap-2">
+                <span>SAVE THE DATE</span>
+                <span>Sabtu, 3 Juni 2023</span>
               </p>
               <p className="py-2 px-2 leading-[1.85]">
                 COUNTDOWN
