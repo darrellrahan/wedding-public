@@ -17,7 +17,7 @@ function Hero({
             <p className="font-extralight text-[0.75rem]">The Wedding of</p>
             <h1 className="text-4xl font-light mt-2">Akbar & Retha</h1>
             <p className="font-extralight text-[0.8rem] mt-4">
-              Sabtu, 3 Juni 2023
+              Saturday, 3 June 2023
             </p>
           </div>
           <div className="flex flex-col items-center gap-2">

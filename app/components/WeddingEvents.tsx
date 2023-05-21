@@ -61,7 +61,7 @@ function WeddingEvents() {
                 <hr className="border border-[#5a5a5a80] w-full" />
                 <p className="flex items-center text-[#5a5a5a] font-light text-sm gap-1.5">
                   <AiFillClockCircle />
-                  <span>08.00 WIB - 11.00 WIB</span>
+                  <span>12.00 WIB - 14.00 WIB</span>
                 </p>
                 <p className="text-[0.785rem] text-[#5a5a5a] font-light leading-[1.9]">
                   <strong className="text-black font-bold">

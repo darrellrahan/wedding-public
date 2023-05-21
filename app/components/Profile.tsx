@@ -31,7 +31,7 @@ function Profile() {
           <p className="text-sm leading-relaxed">
             <strong>Putri dari</strong>
             <br />
-            Bapak Mimin Sadimin dan Ibu Sumarni
+            Bapak Drs Triwiyanto (Alm) dan Ibu Nurleila Entjik Agus Hasyim
           </p>
           <a
             href="https://www.instagram.com/lemonnestt/"
@@ -56,11 +56,11 @@ function Profile() {
           </div>
         </div>
         <div className="flex flex-col items-start text-left gap-6 mt-12">
-          <h1 className="italic text-2xl font-light">Akbar</h1>
+          <h1 className="italic text-2xl font-light">Akbar Pramono Ramadhan</h1>
           <p className="text-sm leading-relaxed">
             <strong>Putra dari</strong>
             <br />
-            Bapak Ayi Dadan dan Ibu Imas Tutih
+            Bapak Nuryantoro (Alm) dan Ibu Masaat Said
           </p>
         </div>
       </div>
