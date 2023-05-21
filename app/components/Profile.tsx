@@ -27,7 +27,9 @@ function Profile() {
           />
         </div>
         <div className="flex flex-col items-end text-right gap-6 mt-12">
-          <h1 className="italic text-2xl font-light">Retha</h1>
+          <h1 className="italic text-2xl font-light">
+            Rizkianty Retha Nurtriana
+          </h1>
           <p className="text-sm leading-relaxed">
             <strong>Putri dari</strong>
             <br />

@@ -2,12 +2,18 @@
 
 import React from "react";
 import { RxEnvelopeOpen } from "react-icons/rx";
+import useSound from "use-sound";
+import backsound from "../../public/audio/backsound.mp3";
 
 function Hero({
   setCurrentOverflow,
 }: {
   setCurrentOverflow: React.Dispatch<React.SetStateAction<string>>;
 }) {
+  const [play] = useSound(backsound, {
+    volume: 0.1,
+  });
+
   return (
     <section id="hero">
       <div className="min-h-screen bg-[url('/images/hero/bg.jpg')] bg-cover bg-center text-white relative">
@@ -29,6 +35,7 @@ function Hero({
               href="#countdown"
               onClick={() => {
                 setCurrentOverflow("auto");
+                play();
               }}
               className="font-bold text-sm bg-[#ffffff36] border border-[#bdb08f8c] rounded-lg flex items-center gap-2 px-6 py-3 mt-6 hover:scale-90 ease-linear duration-[0.2s]"
             >

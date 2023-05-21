@@ -19,9 +19,9 @@ function CountdownComp() {
       <span>Acara sudah berlalu.</span>
     ) : (
       <span>
-        {days} days {hours} hours
+        {days} day {hours} hr
         <br />
-        {minutes} minutes {seconds} seconds
+        {minutes} min {seconds} sec
       </span>
     );
   }
