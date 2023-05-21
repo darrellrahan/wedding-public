@@ -4,8 +4,6 @@ import {
   addDoc,
   collection,
   serverTimestamp,
-  query,
-  getDocs,
 } from "firebase/firestore";
 
 const firebaseConfig = {

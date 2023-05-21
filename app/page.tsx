@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Profile from "./components/Profile";
 import WeddingEvents from "./components/WeddingEvents";
 import Reservation from "./components/Reservation";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   const [currentOverflow, setCurrentOverflow] = useState("hidden");
@@ -24,6 +25,7 @@ export default function Home() {
       <Profile />
       <WeddingEvents />
       <Reservation />
+      <Gallery />
     </main>
   );
 }
