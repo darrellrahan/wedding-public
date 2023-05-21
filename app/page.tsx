@@ -8,6 +8,7 @@ import Profile from "./components/Profile";
 import WeddingEvents from "./components/WeddingEvents";
 import Reservation from "./components/Reservation";
 import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 export default function Home() {
   const [currentOverflow, setCurrentOverflow] = useState("hidden");
@@ -26,6 +27,7 @@ export default function Home() {
       <WeddingEvents />
       <Reservation />
       <Gallery />
+      <Footer />
     </main>
   );
 }
