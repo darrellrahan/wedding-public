@@ -9,6 +9,7 @@ import WeddingEvents from "./components/WeddingEvents";
 import Reservation from "./components/Reservation";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
+import { RevealWrapper } from "next-reveal";
 
 export default function Home() {
   const [currentOverflow, setCurrentOverflow] = useState("hidden");
@@ -20,7 +21,9 @@ export default function Home() {
 
   return (
     <main className="max-w-[28.125rem] mx-auto">
-      <Hero setCurrentOverflow={setCurrentOverflow} />
+      <RevealWrapper duration={2000}>
+        <Hero setCurrentOverflow={setCurrentOverflow} />
+      </RevealWrapper>
       <Countdown />
       <ArRum />
       <Profile />

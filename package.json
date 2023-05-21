@@ -15,6 +15,7 @@
     "autoprefixer": "10.4.14",
     "firebase": "^9.22.0",
     "next": "13.4.2",
+    "next-reveal": "^1.0.6",
     "postcss": "8.4.23",
     "react": "18.2.0",
     "react-countdown": "^2.3.5",
