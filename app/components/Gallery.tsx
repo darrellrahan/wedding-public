@@ -1,5 +1,6 @@
 import React from "react";
 import { FaQuoteRight } from "react-icons/fa";
+import { RevealWrapper } from "next-reveal";
 
 function Gallery() {
   return (
@@ -16,25 +17,33 @@ function Gallery() {
               alt="quote"
               className="w-[170px] h-[220px] object-cover"
             />
-            <span>
-              <FaQuoteRight color="#4242427A" fontSize="1.75rem" />
-            </span>
-            <p className="text-[0.8rem] font-light leading-loose px-8">
-              From when I first saw you, I felt that I was finally home, all I
-              want is to make your dreams come true and share our dreams
-              together.
-            </p>
+            <RevealWrapper origin="top" duration={1500}>
+              <span>
+                <FaQuoteRight color="#4242427A" fontSize="1.75rem" />
+              </span>
+            </RevealWrapper>
+            <RevealWrapper origin="top" duration={1500}>
+              <p className="text-[0.8rem] font-light leading-loose px-8">
+                From when I first saw you, I felt that I was finally home, all I
+                want is to make your dreams come true and share our dreams
+                together.
+              </p>
+            </RevealWrapper>
           </div>
-          <img
-            src="/images/gallery/bigGrid.jpg"
-            alt="big-grid"
-            className="w-full"
-          />
-          <div className="grid grid-cols-3 gap-1 mt-1">
-            <img src="/images/gallery/grid-1.jpg" alt="grid-1" />
-            <img src="/images/gallery/grid-2.jpg" alt="grid-2" />
-            <img src="/images/gallery/grid-3.jpg" alt="grid-3" />
-          </div>
+          <RevealWrapper origin="right" duration={1500}>
+            <img
+              src="/images/gallery/bigGrid.jpg"
+              alt="big-grid"
+              className="w-full"
+            />
+          </RevealWrapper>
+          <RevealWrapper origin="top" duration={1500}>
+            <div className="grid grid-cols-3 gap-1 mt-1">
+              <img src="/images/gallery/grid-1.jpg" alt="grid-1" />
+              <img src="/images/gallery/grid-2.jpg" alt="grid-2" />
+              <img src="/images/gallery/grid-3.jpg" alt="grid-3" />
+            </div>
+          </RevealWrapper>
         </div>
       </div>
     </section>

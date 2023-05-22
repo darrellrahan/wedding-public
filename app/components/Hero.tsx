@@ -31,7 +31,7 @@ function Hero({
             <p className="text-[0.8rem]">
               Jl. Lengkong Besar No.8, Cikawao, Kec. Lengkong, Kota Bandung
             </p>
-            <RevealWrapper duration={2000} origin="bottom">
+            <RevealWrapper duration={4000} origin="bottom">
               <a
                 href="#countdown"
                 onClick={() => {

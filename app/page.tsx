@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <main className="max-w-[28.125rem] mx-auto">
-      <RevealWrapper duration={2000}>
+      <RevealWrapper duration={1500}>
         <Hero setCurrentOverflow={setCurrentOverflow} />
       </RevealWrapper>
       <Countdown />

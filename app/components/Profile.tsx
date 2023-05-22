@@ -7,7 +7,7 @@ function Profile() {
   return (
     <section id="people">
       <div className="bg-[url('/images/people/bg.jpg')] bg-center bg-no-repeat bg-cover px-12 py-16">
-        <RevealWrapper duration={2000}>
+        <RevealWrapper duration={1500}>
           <p className="text-center text-[0.75rem] leading-loose text-[#424242]">
             <strong>Bismillahirrahmanirrahim</strong>
             <br />
@@ -18,14 +18,14 @@ function Profile() {
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
           <div className="-rotate-90 flex flex-col justify-end mr-16 lg:mr-24 translate-y-4 lg:translate-y-0">
-            <RevealWrapper duration={2000} origin="bottom">
+            <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
                 <span>BRIDE</span>
               </p>
             </RevealWrapper>
           </div>
-          <RevealWrapper duration={2000} origin="right">
+          <RevealWrapper duration={1500} origin="right">
             <img
               src="/images/people/women.jpg"
               alt="Retha"
@@ -34,7 +34,7 @@ function Profile() {
           </RevealWrapper>
         </div>
         <div className="flex flex-col items-end text-right gap-6 mt-12">
-          <RevealWrapper duration={2000} origin="bottom">
+          <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
               Rizkianty Retha Nurtriana
             </h1>
@@ -56,7 +56,7 @@ function Profile() {
           </a>
         </div>
         <div className="grid grid-cols-2 mt-20">
-          <RevealWrapper duration={2000} origin="left">
+          <RevealWrapper duration={1500} origin="left">
             <img
               src="/images/people/man.jpg"
               alt="Akbar"
@@ -64,7 +64,7 @@ function Profile() {
             />
           </RevealWrapper>
           <div className="rotate-90 flex flex-col justify-end ml-16 lg:ml-24 -translate-y-4 lg:translate-y-0">
-            <RevealWrapper duration={2000} origin="bottom">
+            <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
                 <span>GROOM</span>
@@ -73,7 +73,7 @@ function Profile() {
           </div>
         </div>
         <div className="flex flex-col items-start text-left gap-6 mt-12">
-          <RevealWrapper duration={2000} origin="bottom">
+          <RevealWrapper duration={1500} origin="bottom">
             <h1 className="italic text-2xl font-light">
               Akbar Pramono Ramadhan
             </h1>
