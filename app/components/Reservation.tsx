@@ -178,7 +178,7 @@ function Reservation() {
             </button>
           </div>
         </RevealWrapper>
-        <div className="space-y-4">
+        <div className="space-y-4 h-80 overflow-y-scroll">
           {reservations.map((data) => {
             const date = new Date(data.time?.seconds * 1000);
             return (
