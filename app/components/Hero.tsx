@@ -16,8 +16,8 @@ function Hero({
 
   return (
     <section id="hero">
-      <div className="min-h-screen bg-[url('/images/hero/bg.jpg')] bg-cover bg-center text-white relative">
-        <div className="absolute inset-0 bg-black/60 z-10" />
+      <div className="min-h-screen bg-[url('/images/hero/bg-final.jpeg')] bg-cover bg-center text-white relative">
+        <div className="absolute inset-0 bg-black/70 z-10" />
         <div className="flex flex-col justify-between py-28 px-12 text-center z-20 relative h-screen">
           <div>
             <p className="font-extralight text-[0.75rem]">The Wedding of</p>

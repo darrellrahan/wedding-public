@@ -6,7 +6,7 @@ import { RevealWrapper } from "next-reveal";
 function Profile() {
   return (
     <section id="people">
-      <div className="bg-[url('/images/people/bg.jpg')] bg-center bg-no-repeat bg-cover px-12 py-16">
+      <div className="bg-[url('/images/profile/bg.jpg')] bg-center bg-no-repeat bg-cover px-12 py-16">
         <RevealWrapper duration={1500}>
           <p className="text-center text-[0.75rem] leading-loose text-[#424242]">
             <strong>Bismillahirrahmanirrahim</strong>
@@ -17,7 +17,7 @@ function Profile() {
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
-          <div className="-rotate-90 flex flex-col justify-end mr-16 lg:mr-24 translate-y-4 lg:translate-y-0">
+          <div className="-rotate-90 flex flex-col justify-end mr-24 lg:mr-36 translate-y-4 lg:translate-y-0">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
@@ -27,9 +27,9 @@ function Profile() {
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
-              src="/images/people/women.jpg"
+              src="/images/profile/women-final.png"
               alt="Retha"
-              className="translate-x-[1.9rem] lg:translate-x-[1.625rem] scale-125"
+              className="translate-x-[3rem]"
             />
           </RevealWrapper>
         </div>
@@ -58,12 +58,12 @@ function Profile() {
         <div className="grid grid-cols-2 mt-20">
           <RevealWrapper duration={1500} origin="left">
             <img
-              src="/images/people/man.jpg"
+              src="/images/profile/man-final.png"
               alt="Akbar"
-              className="-translate-x-[1.9rem] lg:-translate-x-[1.625rem] scale-125"
+              className="-translate-x-[3rem]"
             />
           </RevealWrapper>
-          <div className="rotate-90 flex flex-col justify-end ml-16 lg:ml-24 -translate-y-4 lg:translate-y-0">
+          <div className="rotate-90 flex flex-col justify-end ml-24 lg:ml-36 -translate-y-4 lg:translate-y-0">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
