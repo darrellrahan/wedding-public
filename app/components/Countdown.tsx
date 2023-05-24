@@ -53,6 +53,9 @@ function CountdownComp() {
                   />
                 </p>
               </div>
+              <p className="mt-4 font-light text-sm text-center">
+                Dresscode: Black
+              </p>
             </RevealWrapper>
           </div>
         </div>
