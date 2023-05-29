@@ -16,7 +16,7 @@ function Hero({
 
   return (
     <section id="hero">
-      <div className="min-h-screen bg-[url('/images/hero/bg-final.jpeg')] bg-cover bg-center text-white relative">
+      <div className="min-h-screen bg-[url('/images/hero/bg-final.jpg')] bg-cover bg-center text-white relative">
         <div className="absolute inset-0 bg-black/70 z-10" />
         <div className="flex flex-col justify-between py-28 px-12 text-center z-20 relative h-screen">
           <div>

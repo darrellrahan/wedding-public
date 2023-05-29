@@ -6,7 +6,7 @@ function WeddingEvents() {
   return (
     <section id="wedding-events">
       <div className="bg-[url('/images/weddingEvents/bg.jpeg')] bg-cover bg-center relative px-8 pt-8 pb-12 lg:px-10 lg:pt-10 lg:pb-14">
-        <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#424242_100%)] opacity-90 absolute inset-0"></div>
+        <div className="bg-transparent bg-[linear-gradient(360deg,#EAEAEA_53%,#A2A378_100%)] opacity-90 absolute inset-0"></div>
         <div className="z-10 relative">
           <h1 className="text-xl italic text-white text-center font-light">
             Wedding Events
@@ -14,12 +14,12 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-10">
               <img
-                src="/images/weddingEvents/akad-final.jpeg"
+                src="/images/weddingEvents/akad-final.jpg"
                 alt="akad"
                 className="w-full h-72 object-cover rounded-t-[1.25rem]"
               />
               <div className="flex">
-                <div className="w-[20%] bg-[#424242] rounded-bl-[1.25rem] flex items-center">
+                <div className="w-[20%] bg-[#83764F] rounded-bl-[1.25rem] flex items-center">
                   <p className="rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-5 lg:-translate-x-3.5 tracking-[5px]">
                     AKAD
                   </p>
@@ -54,9 +54,9 @@ function WeddingEvents() {
           <RevealWrapper duration={1500} origin="bottom">
             <div className="mt-6">
               <img
-                src="/images/weddingEvents/resepsi-final.jpeg"
+                src="/images/weddingEvents/resepsi-final.jpg"
                 alt="akad"
-                className="w-full h-72 object-cover rounded-t-[1.25rem]"
+                className="w-full h-72 object-cover rounded-t-[1.25rem] object-left"
               />
               <div className="flex">
                 <div className="w-[80%] bg-white px-4 py-6 rounded-bl-[1.25rem] flex flex-col gap-5 items-baseline">
@@ -89,7 +89,7 @@ function WeddingEvents() {
                     GOOGLE MAPS
                   </a>
                 </div>
-                <div className="w-[20%] bg-[#424242] rounded-br-[1.25rem] flex items-center">
+                <div className="w-[20%] bg-[#83764F] rounded-br-[1.25rem] flex items-center">
                   <p className="-rotate-90 text-center text-white font-bold text-[1.75rem] -translate-x-[3rem] lg:-translate-x-[2.35rem] tracking-[5px]">
                     RESEPSI
                   </p>

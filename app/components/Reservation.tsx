@@ -47,7 +47,7 @@ function Reservation() {
 
   return (
     <section id="reservation">
-      <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-1">
+      <div className="bg-[url('/images/anNur/bg.png')] bg-center bg-no-repeat bg-cover px-8 py-16 lg:px-10 space-y-8 -mt-4">
         <RevealWrapper duration={2500} origin="bottom" className="space-y-8">
           <h1 className="text-xl italic font-light text-center">
             Reservation & Wishes
@@ -55,7 +55,7 @@ function Reservation() {
           <p className="text-center text-[0.75rem] text-[#424242]">
             Mohon mengisi reservasi
             <br />
-            Satu undangan berlaku untuk 1-3 orang
+            Satu undangan berlaku untuk 1-2 orang
           </p>
           <div className="flex flex-col gap-3">
             <input
@@ -141,7 +141,7 @@ function Reservation() {
                     Pilih jumlah orang
                   </option>
                   <option value="1">1 Orang</option>
-                  <option value="2">2 Orang</option>
+                  <option value="2">2 Orang</option>``
                 </select>
               </>
             )}
