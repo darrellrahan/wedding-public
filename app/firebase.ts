@@ -7,12 +7,12 @@ import {
 } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAZhmYstrWSqL_TJbqtvo8h3nf94EWCdB8",
-  authDomain: "wedding-akbar-retha.firebaseapp.com",
-  projectId: "wedding-akbar-retha",
-  storageBucket: "wedding-akbar-retha.appspot.com",
-  messagingSenderId: "1098766556002",
-  appId: "1:1098766556002:web:85a7339dcbee8440282a3b",
+  apiKey: "AIzaSyBK1nKQekutTgGUw4D6JNQlzP71z0XXgO4",
+  authDomain: "wedding-public.firebaseapp.com",
+  projectId: "wedding-public",
+  storageBucket: "wedding-public.appspot.com",
+  messagingSenderId: "1089501681156",
+  appId: "1:1089501681156:web:5f672b33c24803f8ed0751",
 };
 
 const app = initializeApp(firebaseConfig);

@@ -124,6 +124,7 @@ function Reservation() {
                   <option value="" disabled selected>
                     Pilih waktu kehadiran
                   </option>
+                  <option value="Akad">Akad</option>
                   <option value="Resepsi Base 1">Resepsi Base 1</option>
                   <option value="Resepsi Base 2">Resepsi Base 2</option>
                 </select>

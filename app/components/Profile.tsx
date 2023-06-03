@@ -17,7 +17,7 @@ function Profile() {
           </p>
         </RevealWrapper>
         <div className="grid grid-cols-2 mt-20">
-          <div className="-rotate-90 flex flex-col justify-end mr-24 lg:mr-36 translate-y-4 lg:translate-y-0">
+          <div className="-rotate-90 flex flex-col justify-end lg:mr-4 -translate-y-4 lg:-translate-y-4">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
@@ -27,7 +27,7 @@ function Profile() {
           </div>
           <RevealWrapper duration={1500} origin="right">
             <img
-              src="/images/profile/women-final.jpeg"
+              src="/images/profile/women.jpg"
               alt="Retha"
               className="translate-x-[3rem]"
             />
@@ -58,12 +58,12 @@ function Profile() {
         <div className="grid grid-cols-2 mt-20">
           <RevealWrapper duration={1500} origin="left">
             <img
-              src="/images/profile/man-final.jpeg"
+              src="/images/profile/man.jpg"
               alt="Akbar"
               className="-translate-x-[3rem]"
             />
           </RevealWrapper>
-          <div className="rotate-90 flex flex-col justify-end ml-24 lg:ml-36 -translate-y-4 lg:translate-y-0">
+          <div className="rotate-90 flex flex-col justify-end lg:ml-4 translate-y-4 lg:translate-y-8">
             <RevealWrapper duration={1500} origin="bottom">
               <p className="text-[0.75rem] tracking-[5px] flex gap-2.5 text-[#424242] text-center">
                 <span>THE</span>
@@ -85,6 +85,14 @@ function Profile() {
             <br />
             Ibu Masaat Said
           </p>
+          <a
+            href="https://www.instagram.com/akbar/"
+            className="text-sm text-white bg-[#424242] px-[0.4375rem] py-1 rounded-[0.625rem] flex items-center gap-1 hover:scale-90 ease-linear duration-[0.2s]"
+          >
+            <AiOutlineInstagram />
+            <span>akbar</span>
+            <HiArrowLongRight />
+          </a>
         </div>
       </div>
     </section>
